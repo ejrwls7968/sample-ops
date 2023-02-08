@@ -5,3 +5,7 @@ resources:
 patchesStrategicMerge:
 - deployment-patch.yaml
 - service-patch.yaml
+images:
+- name: 311724524637.dkr.ecr.ap-northeast-2.amazonaws.com/hello
+  newName: 311724524637.dkr.ecr.ap-northeast-2.amazonaws.com/hello
+  newTag: "15"
